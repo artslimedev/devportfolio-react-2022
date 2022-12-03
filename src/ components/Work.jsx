@@ -1,5 +1,4 @@
 import React from 'react'
-import WorkImg from '../assets/projects/photogsite.png'
 import PhotogSite from '../assets/projects/photogsite.png'
 import PadFinder from '../assets/projects/padfinder.png'
 import Tempest from '../assets/projects/tempest.jpeg'
