@@ -26,7 +26,7 @@ const Work = () => {
                 Photography Portfolio Site
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="http://www.jiyo.me/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             {/* <a href="/">
