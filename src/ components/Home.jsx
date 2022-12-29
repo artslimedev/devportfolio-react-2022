@@ -54,7 +54,7 @@ const Home = () => {
                       </li>
                       <li className='w-[52px] h-[52px] flex justify-between items-center bg-[#565f69] sm:hover:scale-125 duration-500'>
                           <a className='flex justify-between items-center w-full text-white'
-                          href="https://drive.google.com/file/d/1a1PH-Cvpnos-muAJTaE1wLYW1Ko1O3AA/view?usp=sharing">
+                          href="https://drive.google.com/file/d/1EN2_Y7-cubdXhL4fML5wZRDRGFXoBbL6/view?usp=sharing">
                           <BsFillPersonLinesFill size={30} />
                           </a>
                       </li>
