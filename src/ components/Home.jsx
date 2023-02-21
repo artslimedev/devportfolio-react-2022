@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { HiOutlineMail, HiArrowNarrowRight } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -19,10 +18,15 @@ const Home = () => {
           I'm a Full-Stack Developer.
         </h2>
         <p className="text-gray-300 max-w-[700px] my-4">
-          I value creating aestheticaly pleasing and responsive full-stack web
-          applications. No matter the project, the first thing users will see is
-          how it looks, so I make it a priority for your users to have a smooth
-          & functional experience with whatever project we need to build.
+          As a full stack software engineer, I've always been drawn to the
+          intersection of art and technology. I love understanding how
+          technology works and have a knack for visual design. Combining these
+          two passions has led me to become a skilled creator in my field. With
+          my expertise in React, Javascript, HTML/CSS, and MongoDB, I'm equipped
+          to develop end-to-end solutions that deliver an outstanding user
+          experience. Whether it's the front-end or back-end, I'm ready to take
+          on any challenge and build software that's both functional and
+          visually appealing.
         </p>
         <div className="flex flex-col">
           <div className="mb-5">
