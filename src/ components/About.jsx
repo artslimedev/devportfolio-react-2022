@@ -21,18 +21,16 @@ const About = () => {
           </div>
           <div>
             <p>
-              As a full stack software engineer, I've always been deeply
-              fascinated by the intersection of art and technology. I possess an
-              unwavering passion for understanding how technology works and a
-              keen eye for all types of visual aesthetics. This passion and eye
-              for detail have led me to become a highly skilled creator in the
-              field. I have a wealth of expertise in utilizing technologies such
-              as React, Javascript, HTML/CSS, and MongoDB. With these skills, I
-              am able to build end-to-end solutions that are both functional and
-              visually stunning. Whether I'm working on the front-end or
-              back-end, I approach every project with a meticulous attention to
-              detail and an unrelenting drive to deliver a superior user
-              experience.
+              As a full-stack software engineer, I thrive at the intersection of
+              art and technology, blending a passion for innovation with a sharp
+              eye for design. I specialize in building end-to-end solutions,
+              including mobile apps and scalable web applications, using
+              technologies like React, React Native, TypeScript, Node.js, Go,
+              SQL, and MongoDB. Whether crafting modern UIs, optimizing
+              performance, or designing secure backends, I focus on creating
+              seamless, visually appealing, and user-centric experiences. My
+              work reflects a commitment to detail, a love for problem-solving,
+              and a drive to deliver impactful solutions.
             </p>
           </div>
         </div>

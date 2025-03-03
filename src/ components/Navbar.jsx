@@ -107,14 +107,14 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#47b2ff]">
+          {/* <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#47b2ff]">
             <a
               className="flex justify-between items-center w-full text-white"
               href="https://twitter.com/artslimedev?s=21&t=-G6QTY-5RQnPXb2EcoVo-w"
             >
               Twitter <FaTwitter size={30} />
             </a>
-          </li>
+          </li> */}
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2ba]">
             <a
               className="flex justify-between items-center w-full text-white"

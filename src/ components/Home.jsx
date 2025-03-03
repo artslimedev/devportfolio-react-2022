@@ -1,5 +1,9 @@
 import React, { useState } from "react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  // FaTwitter,
+} from "react-icons/fa";
 import { HiOutlineMail, HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 
@@ -18,10 +22,10 @@ const Home = () => {
           I'm a Full-Stack Developer.
         </h2>
         <p className="text-gray-300 max-w-[700px] my-4">
-          I value creating aestheticaly pleasing and responsive full-stack web
-          applications. No matter the project, the first thing users will see is
-          how it looks, so I make it a priority for your users to have a smooth
-          & functional experience with whatever project we need to build.
+          I value building smooth, responsive applications with React, React
+          Native, Next.js, TypeScript, Go, GraphQL, and SQL. My focus is on
+          creating scalable, accessible, and visually polished experiences that
+          work seamlessly across web and mobile.
         </p>
         <div className="flex flex-col">
           <div className="mb-5">
@@ -54,14 +58,14 @@ const Home = () => {
                   <FaGithub size={30} />
                 </a>
               </li>
-              <li className="w-[52px] h-[52px] flex justify-between items-center bg-[#47b2ff] sm:hover:scale-125 duration-500">
+              {/* <li className="w-[52px] h-[52px] flex justify-between items-center bg-[#47b2ff] sm:hover:scale-125 duration-500">
                 <a
                   className="flex justify-between items-center w-full text-white"
                   href="https://twitter.com/artslimedev?s=21&t=-G6QTY-5RQnPXb2EcoVo-w"
                 >
                   <FaTwitter size={30} />
                 </a>
-              </li>
+              </li> */}
               <li className="w-[52px] h-[52px] flex justify-between items-center bg-[#6fc2ba] sm:hover:scale-125 duration-500">
                 <a
                   className="flex justify-between items-center w-full text-white"
