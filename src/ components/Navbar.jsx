@@ -4,7 +4,7 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaTwitter,
+  // FaTwitter,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import Logo from "../assets/slime2.png";
