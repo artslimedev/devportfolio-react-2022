@@ -6,7 +6,7 @@ import Node from "../assets/node.png";
 import ReactNative from "../assets/reactnative.svg";
 import GraphQL from "../assets/graphql.svg";
 import Go from "../assets/go.svg";
-import Appwrite from "../assets/appwriteio.svg";
+import Postgres from "../assets/elephant.png";
 // import FireBase from '../assets/firebase.png';
 
 import Mongo from "../assets/mongo.png";
@@ -55,8 +55,8 @@ const Skills = () => {
             <p className="my-4">REACT NATIVE</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 hover:shadow-[#47b2ff] duration-500 rounded-md">
-            <img className="w-20 mx-auto" src={Appwrite} alt="Appwrite Icon" />
-            <p className="my-4">APPWRITE</p>
+            <img className="w-20 mx-auto" src={Postgres} alt="Appwrite Icon" />
+            <p className="my-4">POSTGRESQL</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 hover:shadow-[#47b2ff] duration-500 rounded-md">
             <img className="w-20 mx-auto" src={Node} alt="Node Icon" />
