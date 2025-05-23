@@ -12,18 +12,22 @@ export const Projects = [
     demoLink: "https://lockin-taskmanager.vercel.app/",
     description: (
       <>
-        This task management app was built with <strong>Next</strong>.js and{" "}
-        <strong>Supabase</strong>, using <strong>PostgreSQL</strong> as the
-        database. It lets users sign up, log in, and manage their tasks with
-        full <strong>CRUD</strong> functionality. Real-time updates are handled
-        through Supabase's Realtime features, so task changes show up instantly.
-        Authentication is powered by
-        <strong> Supabase Auth</strong>, and the UI is styled with{" "}
-        <strong>TailwindCSS</strong> to keep things clean and responsive.
-        Server-side rendering is handled by
-        <strong> Next.js</strong>, and the backend uses row-level security to
-        make sure users can only access their own data. Testing was done with
-        Jest and React Testing Library.
+        I built this task management app using <strong>Next.js</strong> and{" "}
+        <strong>Supabase</strong>, with <strong>PostgreSQL</strong> as the
+        database. Users can sign up, log in, and manage tasks with full{" "}
+        <strong>CRUD</strong> functionality, and real-time updates are powered
+        by <strong>Supabase Realtime</strong>. I used{" "}
+        <strong>Supabase Auth</strong> for authentication and styled the UI with{" "}
+        <strong>TailwindCSS</strong> to keep things clean and responsive.{" "}
+        <strong>Server-side rendering</strong> is handled by Next.js, and I
+        implemented <strong>row-level security</strong> and{" "}
+        <strong>role-based access control (RBAC)</strong> to ensure users can
+        only access their own data. I also added{" "}
+        <strong>protected routes</strong>,{" "}
+        <strong>custom error handling</strong>, and wrote{" "}
+        <strong>unit tests</strong> with <strong>Jest</strong> and{" "}
+        <strong>React Testing Library</strong> to ensure reliability and
+        maintainability.
       </>
     ),
   },
@@ -36,20 +40,26 @@ export const Projects = [
     demoLink: "",
     description: (
       <>
-        Slime Cookbook is a modern, full-stack recipe app built with{" "}
+        I built Slime Cookbook as a modern, full-stack recipe app using{" "}
         <strong>
           Next.js, TypeScript, Tailwind CSS, and Supabase (PostgreSQL)
-        </strong>
-        , designed to make browsing, adding, and organizing recipes intuitive
-        and enjoyable. It features user authentication, recipe creation and
-        editing, keyword search, and custom categories, all styled with{" "}
-        <strong>TailwindCSS and ShadCN </strong> for a clean, responsive
-        interface. The app uses an <strong>MVC-style structure</strong> with{" "}
-        <strong>server-side rendering via Next.js</strong> and stores data
-        securely with <strong>Supabase.</strong> While currently a web app,
-        future plans include a native iOS version using React Native or Flutter
-        and backend optimizations with Go. This project emphasizes scalable
-        architecture, clean design, and fast iteration.
+        </strong>{" "}
+        to make browsing, adding, and organizing recipes feel seamless and
+        enjoyable. It includes user authentication, recipe creation and editing,
+        keyword search, and custom categories—all styled with{" "}
+        <strong>Tailwind CSS and ShadCN</strong> for a polished, responsive
+        interface. The app follows an <strong>MVC-style architecture</strong>{" "}
+        with <strong>server-side rendering via Next.js</strong>, and stores data
+        securely in a <strong>relational PostgreSQL database</strong> using{" "}
+        <strong>Supabase</strong>. I designed the schema to handle recipes with
+        one or two sets of ingredients, using{" "}
+        <strong>foreign key relationships</strong> to associate each recipe with
+        its relevant ingredient groups and instructions. While it's currently a
+        web app, I plan to build a native iOS version using{" "}
+        <strong>React Native</strong> or <strong>Flutter</strong>, and
+        eventually optimize the backend with <strong>Go</strong>. This project
+        has been a great opportunity to focus on scalable architecture, clean
+        data modeling, and fast development workflows.
       </>
     ),
   },
@@ -62,21 +72,21 @@ export const Projects = [
     demoLink: "",
     description: (
       <>
-        Tempest Fitness Journal is a full-stack fitness tracking app built with{" "}
-        <strong>Node.js</strong>, <strong>Express</strong>,{" "}
-        <strong>MongoDB</strong>, and <strong>EJS</strong>. Designed to help
-        users visualize their progress over time—not just current stats—it lets
-        you log workouts, strength metrics, cardio sessions, and more. The
-        frontend uses <strong>EJS</strong> templates styled with{" "}
-        <strong>TailwindCSS</strong> and <strong>DaisyUI</strong>, while
-        authentication is handled with <strong>Passport</strong>.js. Data is
-        structured using an <strong>MVC architecture</strong>, with routes and
-        controllers managing <strong>CRUD</strong> operations for user-submitted
-        fitness data. This project deepened my understanding of{" "}
-        <strong>backend routing, MongoDB, data modeling</strong> , and dynamic
-        view rendering. It also reinforced the importance of user experience in
-        fitness applications, making it easier for users to track their progress
-        and stay motivated.
+        I built Tempest Fitness Journal as a full-stack fitness tracking app
+        using <strong>Node.js</strong>, <strong>Express</strong>,{" "}
+        <strong>MongoDB</strong>, and <strong>EJS</strong>, with the goal of
+        helping users visualize their long-term progress—not just daily stats.
+        Users can log workouts, strength metrics, and cardio sessions, and the
+        app presents that data in a way that makes trends and milestones easy to
+        see. I used <strong>EJS</strong> for templating on the frontend, styled
+        with <strong>TailwindCSS</strong> and <strong>DaisyUI</strong>, and
+        handled authentication with <strong>Passport.js</strong>. The project
+        follows an <strong>MVC architecture</strong>, with routes and
+        controllers managing <strong>CRUD</strong> operations for all
+        user-submitted fitness data. This app gave me hands-on experience with{" "}
+        <strong>backend routing, MongoDB, and data modeling</strong>, while also
+        pushing me to think more about user experience—especially when it comes
+        to motivation and progress tracking in fitness apps.
       </>
     ),
   },
