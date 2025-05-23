@@ -16,8 +16,7 @@ const TabBody = ({ activeTab, projects, project }) => {
               className="w-full group shadow-lg aspect-video rounded-[20px] overflow-hidden
                 flex justify-center items-center bg-contain bg-center bg-no-repeat
                 relative before:absolute before:top-0 before:left-0 before:w-full before:h-full
-                before:bg-gradient-to-r before:from-[rgba(112,157,255,0.8)] before:to-[rgba(92,81,223,0.8)]
-                before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-300"
+                before:bg-gradient-to-r before:from-[rgba(112,157,255,0.8)] before:to-[rgba(92,81,223,0.8)]"
             >
               <div className="relative z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 {project.code && (
@@ -44,7 +43,7 @@ const TabBody = ({ activeTab, projects, project }) => {
 
           <div className="w-full">
             <div className="flex items-center justify-center gap-2 mb-4 text-center">
-              {data.code && (
+              {project.code && (
                 <a
                   href="{project.codeLink}"
                   className="w-full border-2 border-[#47b2ff] rounded"
@@ -53,7 +52,7 @@ const TabBody = ({ activeTab, projects, project }) => {
                   Code{" "}
                 </a>
               )}
-              {data.demo && (
+              {project.demo && (
                 <a
                   href="{project.demoLink}"
                   className="w-full border-2 border-[#47b2ff] rounded"
@@ -90,10 +89,10 @@ const TabBody = ({ activeTab, projects, project }) => {
               <div
                 style={{ backgroundImage: `url(${data.image})` }}
                 className="w-full group shadow-lg aspect-video rounded-[20px] overflow-hidden
-      flex justify-center items-center bg-contain md:bg-cover bg-center bg-no-repeat
-      relative before:absolute before:top-0 before:left-0 before:w-full before:h-full
-      before:bg-gradient-to-r before:from-[rgba(112,157,255,0.8)] before:to-[rgba(92,81,223,0.8)]
-      before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-300"
+                  flex justify-center items-center bg-contain md:bg-cover bg-center bg-no-repeat
+                  relative before:absolute before:top-0 before:left-0 before:w-full before:h-full
+                  before:bg-gradient-to-r before:from-[rgba(112,157,255,0.8)] before:to-[rgba(92,81,223,0.8)]
+                  before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-300"
               >
                 <div className="relative z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="relative z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
