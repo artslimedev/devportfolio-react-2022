@@ -12,13 +12,13 @@ export const Projects = [
     demoLink: "https://lockin-taskmanager.vercel.app/",
     description: (
       <>
-        I built this task management app using <strong>Next.js</strong> and{" "}
-        <strong>Supabase</strong>, with <strong>PostgreSQL</strong> as the
-        database. Users can sign up, log in, and manage tasks with full{" "}
-        <strong>CRUD</strong> functionality, and real-time updates are powered
-        by <strong>Supabase Realtime</strong>. I used{" "}
-        <strong>Supabase Auth</strong> for authentication and styled the UI with{" "}
-        <strong>TailwindCSS</strong> to keep things clean and responsive.{" "}
+        I built this task management app using{" "}
+        <strong>Next.js, Typescript</strong> and <strong>Supabase</strong>, with{" "}
+        <strong>PostgreSQL</strong> as the database. Users can sign up, log in,
+        and manage tasks with full <strong>CRUD</strong> functionality, and
+        real-time updates are powered by <strong>Supabase Realtime</strong>. I
+        used <strong>Supabase Auth</strong> for authentication and styled the UI
+        with <strong>TailwindCSS</strong> to keep things clean and responsive.{" "}
         <strong>Server-side rendering</strong> is handled by Next.js, and I
         implemented <strong>row-level security</strong> and{" "}
         <strong>role-based access control (RBAC)</strong> to ensure users can
