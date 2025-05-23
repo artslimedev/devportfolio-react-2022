@@ -44,20 +44,24 @@ const TabBody = ({ activeTab, projects, project }) => {
 
           <div className="w-full">
             <div className="flex items-center justify-center gap-2 mb-4 text-center">
-              <a
-                href="{project.codeLink}"
-                className="w-full border-2 border-[#47b2ff] rounded"
-              >
-                {" "}
-                Code{" "}
-              </a>
-              <a
-                href="{project.demoLink}"
-                className="w-full border-2 border-[#47b2ff] rounded"
-              >
-                {" "}
-                Demo{" "}
-              </a>
+              {data.code && (
+                <a
+                  href="{project.codeLink}"
+                  className="w-full border-2 border-[#47b2ff] rounded"
+                >
+                  {" "}
+                  Code{" "}
+                </a>
+              )}
+              {data.demo && (
+                <a
+                  href="{project.demoLink}"
+                  className="w-full border-2 border-[#47b2ff] rounded"
+                >
+                  {" "}
+                  Demo{" "}
+                </a>
+              )}
             </div>
             <p className="text-sm leading-7 text-justify text-gray-300">
               {project.description}
