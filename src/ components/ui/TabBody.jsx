@@ -10,13 +10,11 @@ const TabBody = ({ activeTab, projects, project }) => {
           Project Image 
 
           */}
-          <div className="w-full flex items-center">
-            <div
-              style={{ backgroundImage: `url(${project.image})` }}
-              className="w-full group shadow-lg aspect-video rounded-lg overflow-hidden
-                flex justify-center items-center bg-contain bg-center bg-no-repeat"
-            ></div>
-          </div>
+          <div
+            style={{ backgroundImage: `url(${project.image})` }}
+            className="w-full group shadow-lg aspect-video rounded-lg
+    bg-cover bg-center bg-no-repeat"
+          ></div>
 
           {/* Project Description */}
 
