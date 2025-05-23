@@ -13,7 +13,7 @@ const TabBody = ({ activeTab, projects, project }) => {
           <div className="w-full flex items-center">
             <div
               style={{ backgroundImage: `url(${project.image})` }}
-              className="w-full group shadow-lg aspect-video rounded-[20px] overflow-hidden
+              className="w-full group shadow-lg aspect-video rounded-lg overflow-hidden
                 flex justify-center items-center bg-contain bg-center bg-no-repeat"
             ></div>
           </div>
@@ -67,7 +67,7 @@ const TabBody = ({ activeTab, projects, project }) => {
             <div className="w-full md:w-1/2 md:max-w-[500px] flex items-center">
               <div
                 style={{ backgroundImage: `url(${data.image})` }}
-                className="w-full group shadow-lg aspect-video rounded-[20px] overflow-hidden
+                className="w-full group shadow-lg aspect-video rounded-lg overflow-hidden
                   flex justify-center items-center bg-contain md:bg-cover bg-center bg-no-repeat
                   relative before:absolute before:top-0 before:left-0 before:w-full before:h-full
                   before:bg-gradient-to-r before:from-[rgba(112,157,255,0.8)] before:to-[rgba(92,81,223,0.8)]
@@ -99,10 +99,10 @@ const TabBody = ({ activeTab, projects, project }) => {
             {/* Right Column - Project Description */}
 
             <div className="w-full md:w-1/2 md:max-w-[500px]">
-              <div className="mb-4">
-                <p className="text-sm leading-7 text-justify md:text-left text-gray-300">
+              <div className=" pr-4">
+                <div className="p-4 text-sm leading-7 text-justify md:text-left text-gray-300 space-y-2">
                   {data.description}
-                </p>
+                </div>
               </div>
             </div>
           </div>

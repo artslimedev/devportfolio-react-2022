@@ -40,26 +40,24 @@ export const Projects = [
     demoLink: "",
     description: (
       <>
-        I built Slime Cookbook as a modern, full-stack recipe app using{" "}
+        I built Slime Cookbook as a full-stack recipe app using{" "}
         <strong>
           Next.js, TypeScript, Tailwind CSS, and Supabase (PostgreSQL)
         </strong>{" "}
-        to make browsing, adding, and organizing recipes feel seamless and
-        enjoyable. It includes user authentication, recipe creation and editing,
-        keyword search, and custom categories—all styled with{" "}
-        <strong>Tailwind CSS and ShadCN</strong> for a polished, responsive
-        interface. The app follows an <strong>MVC-style architecture</strong>{" "}
-        with <strong>server-side rendering via Next.js</strong>, and stores data
-        securely in a <strong>relational PostgreSQL database</strong> using{" "}
-        <strong>Supabase</strong>. I designed the schema to handle recipes with
-        one or two sets of ingredients, using{" "}
-        <strong>foreign key relationships</strong> to associate each recipe with
-        its relevant ingredient groups and instructions. While it's currently a
-        web app, I plan to build a native iOS version using{" "}
-        <strong>React Native</strong> or <strong>Flutter</strong>, and
-        eventually optimize the backend with <strong>Go</strong>. This project
-        has been a great opportunity to focus on scalable architecture, clean
-        data modeling, and fast development workflows.
+        to create a smooth, responsive experience for managing recipes. I chose{" "}
+        <strong>Supabase</strong> and <strong>PostgreSQL</strong> for their
+        powerful relational database capabilities, which allow me to structure
+        data with <strong>foreign key relationships</strong> that efficiently
+        link ingredient groups and instructions. Using{" "}
+        <strong>server-side rendering with Next.js</strong> improves performance
+        and SEO, while the <strong>MVC architecture</strong> keeps the codebase
+        organized by separating data handling, logic, and presentation. The
+        frontend uses <strong>Tailwind CSS and ShadCN</strong> for a polished
+        and responsive UI. Though it’s currently a web app, I plan to develop
+        native iOS versions with <strong>React Native</strong> or{" "}
+        <strong>Flutter</strong>, and optimize the backend further with{" "}
+        <strong>Go</strong>. This project strengthened my skills in scalable
+        architecture, clean data modeling, and rapid development workflows.
       </>
     ),
   },
