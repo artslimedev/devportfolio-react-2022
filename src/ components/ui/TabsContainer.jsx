@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Projects } from "../data/data";
-import TabBody from "./ui/TabBody";
+import { Projects } from "../../data/data";
+import TabBody from "./TabBody";
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
 
 export function TabsContainer() {
@@ -9,7 +9,7 @@ export function TabsContainer() {
   return (
     <div className="relative w-full">
       {/* Desktop Tabs - Hide on mobile */}
-      <div className="hidden md:flex gap-x-4 overflow-x-auto">
+      <div className="hidden md:flex gap-x-4 mb-4">
         {Projects.map((project, index) => (
           <button
             key={project.title}

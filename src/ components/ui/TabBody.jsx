@@ -68,14 +68,14 @@ const TabBody = ({ activeTab, projects, project }) => {
     );
   }
   return (
-    <div className="relative w-full">
+    <div className="relative w-full md:min-h-[450px]">
       {projects.map((data, index) => (
         <div
           key={data.title}
           className={`w-full p-4 md:p-5 relative
               ${activeTab === index ? "flex animate-fadeIn" : "hidden"}`}
         >
-          <div className="w-full flex flex-col md:flex-row justify-center items-center gap-8">
+          <div className="w-full flex flex-col md:flex-row justify-center items-start gap-8">
             {/* 
             
             Left Column - Project Image 
