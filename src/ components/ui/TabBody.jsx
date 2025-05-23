@@ -14,29 +14,8 @@ const TabBody = ({ activeTab, projects, project }) => {
             <div
               style={{ backgroundImage: `url(${project.image})` }}
               className="w-full group shadow-lg aspect-video rounded-[20px] overflow-hidden
-                flex justify-center items-center bg-contain bg-center bg-no-repeat
-                relative before:absolute before:top-0 before:left-0 before:w-full before:h-full
-                before:bg-gradient-to-r before:from-[rgba(112,157,255,0.8)] before:to-[rgba(92,81,223,0.8)]"
-            >
-              <div className="relative z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                {project.code && (
-                  <a
-                    href={project.codeLink}
-                    className="inline-block text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-100"
-                  >
-                    Code
-                  </a>
-                )}
-                {project.demo && (
-                  <a
-                    href={project.demoLink}
-                    className="inline-block text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-100"
-                  >
-                    Demo
-                  </a>
-                )}
-              </div>
-            </div>
+                flex justify-center items-center bg-contain bg-center bg-no-repeat"
+            ></div>
           </div>
 
           {/* Project Description */}
