@@ -98,7 +98,7 @@ const TabBody = ({ activeTab, projects, project }) => {
 
             <div className="w-full md:w-1/2 md:max-w-[500px]">
               <div className=" pr-4">
-                <div className="p-4 text-sm leading-7 text-justify md:text-left text-gray-300 space-y-2">
+                <div className="text-sm leading-7 text-justify md:text-left text-gray-300 space-y-2">
                   {data.description}
                 </div>
               </div>
