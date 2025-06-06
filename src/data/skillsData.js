@@ -1,7 +1,7 @@
 import Appwrite from "../assets/appwriteio.svg";
 import Express from "../assets/express.svg";
 import Figma from "../assets/figma.svg";
-import Firebase from "../assets/firebase.svg";
+// import Firebase from "../assets/firebase.svg";
 import Git from "../assets/git.png";
 import Github from "../assets/github.svg";
 import Go from "../assets/go.svg";
@@ -37,9 +37,9 @@ export const skillsData = [
   //   { name: "FIREBASE", icon: Firebase, width: "w-14" },
   { name: "APP WRITE", icon: Appwrite, width: "w-16" },
   { name: "POSTMAN", icon: Postman, width: "w-12" },
-  { name: "GIT", icon: Git, width: "w-24" },
-  { name: "GITHUB", icon: Github, width: "w-14" },
-  { name: "JENKINS", icon: Jenkins, width: "w-14" },
-  { name: "STORYBOOK", icon: Storybook, width: "w-14" },
-  { name: "FIGMA", icon: Figma, width: "w-14" },
+  { name: "GIT", icon: Git, width: "sm:w-[64px]" },
+  { name: "GITHUB", icon: Github, width: "w-16" },
+  { name: "JENKINS", icon: Jenkins, width: "w-16" },
+  { name: "STORYBOOK", icon: Storybook, width: "w-16" },
+  { name: "FIGMA", icon: Figma, width: "w-16" },
 ];
