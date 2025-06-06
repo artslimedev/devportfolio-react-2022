@@ -1,6 +1,7 @@
 import Recipe from "../assets/projects/recipe.png";
 import Tempest from "../assets/projects/tempest.jpeg";
 import LockIn from "../assets/projects/LockinTasks.png";
+import Squish from "../assets/projects/squish.png";
 
 export const Projects = [
   {
@@ -85,6 +86,33 @@ export const Projects = [
         <strong>backend routing, MongoDB, and data modeling</strong>, while also
         pushing me to think more about user experience—especially when it comes
         to motivation and progress tracking in fitness apps.
+      </>
+    ),
+  },
+  {
+    title: "Squish Mental Health Journal",
+    image: Squish,
+    code: true,
+    demo: true,
+    codeLink: "https://github.com/artslimedev/squish-journal",
+    demoLink: "https://squish-production.up.railway.app",
+    description: (
+      <>
+        I built <strong>Squish</strong>, a minimalist mental health journaling
+        app, to give users a private, distraction-free space to reflect. I used{" "}
+        <strong>Node.js</strong> and <strong>Express.js</strong> to build the
+        backend, implementing full <strong>CRUD operations</strong> for journal
+        entries and user management. For authentication, I used{" "}
+        <strong>Passport.js</strong> and <strong>bcrypt</strong> to securely
+        handle login and registration, ensuring all user data remains private. I
+        chose <strong>MongoDB</strong> with <strong>Mongoose</strong> for
+        flexible, schema-based storage of journal content. The frontend is
+        rendered with <strong>EJS</strong>, keeping it lightweight and fast
+        without needing a frontend framework. I deployed the app using{" "}
+        <strong>Railway</strong> for streamlined hosting, and built a responsive
+        layout to support journaling on any device. This project demonstrates my
+        ability to build secure, user-focused full-stack applications using
+        traditional web technologies.
       </>
     ),
   },
