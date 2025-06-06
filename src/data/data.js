@@ -13,7 +13,7 @@ export const Projects = [
     demoLink: "https://lockin-taskmanager.vercel.app/",
     description: (
       <>
-        I built this task management app using{" "}
+        Lock In is a task manager app I built to focus using{" "}
         <strong>Next.js, Typescript</strong> and <strong>Supabase</strong>, with{" "}
         <strong>PostgreSQL</strong> as the database. Users can sign up, log in,
         and manage tasks with full <strong>CRUD</strong> functionality, and
@@ -33,7 +33,7 @@ export const Projects = [
     ),
   },
   {
-    title: "Cookbook Recipe Finder",
+    title: "Slime Cookbook",
     image: Recipe,
     code: true,
     demo: false,
@@ -63,7 +63,7 @@ export const Projects = [
     ),
   },
   {
-    title: "Tempest Fitness Journal",
+    title: "Tempest Fitness Tracker",
     image: Tempest,
     code: true,
     demo: false,
@@ -71,7 +71,7 @@ export const Projects = [
     demoLink: "",
     description: (
       <>
-        I built Tempest Fitness Journal as a full-stack fitness tracking app
+        I built Tempest Fitness Tracker as a full-stack fitness tracking app
         using <strong>Node.js</strong>, <strong>Express</strong>,{" "}
         <strong>MongoDB</strong>, and <strong>EJS</strong>, with the goal of
         helping users visualize their long-term progress—not just daily stats.
@@ -99,7 +99,9 @@ export const Projects = [
     description: (
       <>
         I built <strong>Squish</strong>, a minimalist mental health journaling
-        app, to give users a private, distraction-free space to reflect. I used{" "}
+        app, to give users a private, distraction-free space to reflect. The
+        name <strong>Squish</strong> comes from that feeling when sometimes
+        you're so frustrated and just want to squish a stressball I used{" "}
         <strong>Node.js</strong> and <strong>Express.js</strong> to build the
         backend, implementing full <strong>CRUD operations</strong> for journal
         entries and user management. For authentication, I used{" "}
