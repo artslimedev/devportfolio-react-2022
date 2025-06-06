@@ -7,13 +7,15 @@ import Work from "./ components/Work";
 
 function App() {
   return (
-    <div>
+    <div className="w-full min-h-screen bg-[#0a192f]">
       <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Work />
-      <Contact />
+      <div className="flex flex-col">
+        <Home />
+        <About />
+        <Skills />
+        <Work />
+        <Contact />
+      </div>
     </div>
   );
 }
