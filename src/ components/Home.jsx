@@ -19,11 +19,11 @@ const Home = () => {
           Paolo Joseph.
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          I'm a Full-Stack Developer.
+          I'm a Fullstack Engineer.
         </h2>
         <p className="text-gray-300 max-w-[700px] my-4">
-          I value building smooth, responsive applications with React, React
-          Native, Next.js, TypeScript, Go, GraphQL, and SQL. My focus is on
+          I value building smooth, responsive applications with React, Node.js,
+          PostgreSQL, Next.js, TypeScript, Go, GraphQL, and SQL. My focus is on
           creating scalable, accessible, and visually polished experiences that
           work seamlessly across web and mobile.
         </p>

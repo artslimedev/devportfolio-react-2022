@@ -14,12 +14,11 @@ export function TabsContainer() {
           <button
             key={project.title}
             onClick={() => setActiveTab(index)}
-            className={`text-sm px-2 min-w-[150px] w-fit whitespace-nowrap
-        hover:bg-[#47b2ff] hover:rounded-lg hover:text-black text-left 
-        transition-all duration-200 ease-in-out
+            className={`text-sm px-2 py-2 min-w-[150px] w-fit whitespace-nowrap
+        shadow-md rounded-md hover:scale-110 shadow-[#47b2ff] duration-500
         ${
           activeTab === index
-            ? "bg-[#47b2ff] rounded-lg text-black"
+            ? "bg-[#47b2ff] shadow-none rounded-lg text-black"
             : "border-b-[#47b2ff] border-b text-white"
         }`}
           >

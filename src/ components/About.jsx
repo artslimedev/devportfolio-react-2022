@@ -15,13 +15,13 @@ const About = () => {
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div>
             <p className="sm:text-right text-4xl font-bold">
-              Hi. I'm Paolo, your next Fullstack Developer! Lets build out your
+              Hi. I'm Paolo, your next Fullstack Engineer! Lets build out your
               idea in style!
             </p>
           </div>
           <div>
             <p>
-              As a full-stack software engineer, I thrive at the intersection of
+              As a fullstack software engineer, I thrive at the intersection of
               art and technology, blending a passion for innovation with a sharp
               eye for design. I specialize in building end-to-end solutions,
               including mobile apps and scalable web applications, using
