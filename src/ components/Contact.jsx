@@ -18,7 +18,7 @@ const Contact = () => {
           </p>
           <p className="text-gray-300 py-4">
             Submit the form or shoot me an email -{" "}
-            <span className="hover:border-b-2 hover:border-[#47b2ff] hover:pb-2">
+            <span className="border-b-2 border-[#47b2ff] pb-1">
               <a href="mailto:artslimedev@gmail.com">artslimedev@gmail.com</a>
             </span>
           </p>
