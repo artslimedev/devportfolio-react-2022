@@ -22,7 +22,7 @@ const TabBody = ({ activeTab, projects, project }) => {
             <div className="flex items-center justify-center gap-2 mb-4 text-center">
               {project.code && (
                 <a
-                  href="{project.codeLink}"
+                  href={`${project.codeLink}`}
                   className="w-full border-2 border-[#47b2ff] rounded"
                 >
                   {" "}
@@ -31,7 +31,7 @@ const TabBody = ({ activeTab, projects, project }) => {
               )}
               {project.demo && (
                 <a
-                  href="{project.demoLink}"
+                  href={`${project.demoLink}`}
                   className="w-full border-2 border-[#47b2ff] rounded"
                 >
                   {" "}
