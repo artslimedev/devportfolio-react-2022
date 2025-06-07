@@ -1,4 +1,4 @@
-import Appwrite from "../assets/appwriteio.svg";
+// import Appwrite from "../assets/appwriteio.svg";
 import Express from "../assets/express.svg";
 import Figma from "../assets/figma.svg";
 // import Firebase from "../assets/firebase.svg";
@@ -18,6 +18,7 @@ import ReactImg from "../assets/react.png";
 import ReactNative from "../assets/reactnative.svg";
 import Redux from "../assets/redux.svg";
 import Storybook from "../assets/storybook.svg";
+import Supabase from "../assets/supabase.svg";
 import Typescript from "../assets/typescript.svg";
 
 export const skillsData = [
@@ -25,17 +26,18 @@ export const skillsData = [
   { name: "JAVASCRIPT", icon: Javascript, width: "w-14" },
   { name: "REACT", icon: ReactImg, width: "w-14" },
   { name: "NEXT.JS", icon: NextJs, width: "w-12" },
+  { name: "NODE JS", icon: Node, width: "w-14" },
+  { name: "POSTGRESQL", icon: Postgres, width: "w-14" },
+  { name: "SUPABASE", icon: Supabase, width: "w-14" },
+  { name: "EXPRESS JS", icon: Express, width: "w-12" },
   { name: "REDUX", icon: Redux, width: "w-12" },
+  { name: "MONGO DB", icon: Mongo, width: "w-14" },
   { name: "GO", icon: Go, width: "w-14" },
   { name: "GRAPH QL", icon: GraphQL, width: "w-14" },
   { name: "REACT NATIVE", icon: ReactNative, width: "w-12" },
-  { name: "POSTGRESQL", icon: Postgres, width: "w-14" },
-  { name: "NODE JS", icon: Node, width: "w-14" },
-  { name: "EXPRESS JS", icon: Express, width: "w-12" },
-  { name: "MONGO DB", icon: Mongo, width: "w-14" },
   { name: "JEST", icon: Jest, width: "w-14" },
   //   { name: "FIREBASE", icon: Firebase, width: "w-14" },
-  { name: "APP WRITE", icon: Appwrite, width: "w-16" },
+  // { name: "APP WRITE", icon: Appwrite, width: "w-16" },
   { name: "POSTMAN", icon: Postman, width: "w-12" },
   { name: "GIT", icon: Git, width: "sm:w-[64px]" },
   { name: "GITHUB", icon: Github, width: "w-16" },
