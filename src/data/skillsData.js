@@ -25,7 +25,7 @@ export const skillsData = [
   { name: "TYPESCRIPT", icon: Typescript, width: "w-14" },
   { name: "JAVASCRIPT", icon: Javascript, width: "w-14" },
   { name: "REACT", icon: ReactImg, width: "w-14" },
-  { name: "NEXT.JS", icon: NextJs, width: "w-12" },
+  { name: "NEXT JS", icon: NextJs, width: "w-12" },
   { name: "NODE JS", icon: Node, width: "w-14" },
   { name: "POSTGRESQL", icon: Postgres, width: "w-14" },
   { name: "SUPABASE", icon: Supabase, width: "w-14" },
